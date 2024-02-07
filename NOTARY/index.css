@@ -1,0 +1,27 @@
+body{
+  background: rgb(243,213,3);
+  background: linear-gradient(158deg, rgba(243,213,3,1) 0%, rgba(243,213,3,1) 99%);
+}
+.responsive{
+  max-width: 75%;
+  height: auto;
+}
+
+img{
+  height: auto; 
+  width: auto; 
+  max-width: 2000px; 
+  max-height: 2000px;
+  padding: 15%;
+}
+.displayBox{
+  width: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.scroll-box{
+  overflow-y: auto;
+  height: 500px;
+  float: left;
+  padding: 1rem;
+}
